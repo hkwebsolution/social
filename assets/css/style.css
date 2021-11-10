@@ -1,0 +1,111 @@
+* {
+  font: poppins;
+}
+
+body {
+  background-color: #e9e9e9;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+input,
+input:focus {
+  border-radius: 0px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+input[type="submit"] {
+  border: 1px solid transparent !important;
+}
+
+.wrap {
+  width: 500px;
+  margin: 50px auto 0px;
+}
+
+.wrap-table {
+  width: 1000px;
+  margin: 50px auto 0px;
+}
+.wrap-table table tr td {
+  vertical-align: middle !important;
+  padding: 3px 5px;
+}
+
+.wrap-table table tr td img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle !important;
+}
+
+.wrap-table table tbody tr td:first-child {
+  width: 30px !important;
+}
+.wrap-table table tbody tr td:last-child {
+  text-align: right;
+  width: 160px;
+}
+
+.profile-menu {
+  background-color: white;
+  padding: 10px 0px;
+}
+
+.profile-menu ul li a {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.user-profile {
+  width: 550px;
+  margin: 100px auto 100px;
+}
+
+.user-profile img {
+  width: 270px;
+  height: 270px;
+  display: block;
+  margin: auto;
+  border: 10px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-item {
+  text-align: center;
+  margin-top: 20px;
+}
+.user-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rlogin {
+  cursor: pointer;
+}
+.rlogin h5 {
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.rlc-div {
+  position: relative;
+}
+
+.rlc {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 30px;
+  display: none;
+}
+.rlc-div:hover > .rlc {
+  display: block;
+  color: red;
+}
